@@ -2,6 +2,24 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+
+	  <PackageId>Date.Keyword.Parser</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Olaniyi Abdul-Wadood</Authors>
+	  <Description>
+		  A lightweight and flexible date keyword parser designed for dynamic file name resolution.
+		  This package simplifies parsing date-related keywords such as YESTERDAY, TODAY, or NOW-1d,
+		  and expands them into actual date values. With support for relative offsets, custom formats
+		  (e.g., Format(NOW, "yyyy-MM-dd")), and localization, it is ideal for scenarios requiring
+		  dynamic date-based file processing. Perfect for use cases like resolving file names on FTP
+		  servers or other dynamic workflows. Compact, efficient, and easy to integrate into existing projects.
+	  </Description>
+	  <Copyright>Copyright © 2024 Olaniyi_Abdul_Wadood</Copyright>
+	  <PackageTags>Dateparser;keywordparser;parser</PackageTags>
+	  <RepositoryUrl>https://github.com/wadood09</RepositoryUrl>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <Readme>README.md</Readme>
+	  <RepositoryType>git</RepositoryType>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
